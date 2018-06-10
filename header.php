@@ -31,6 +31,6 @@
 			<a href="<?php $this->options->siteUrl(); ?>">首页</a>
 			<?php $this->widget('Widget_Contents_Page_List')->parse('<a href="{permalink}">{title}</a>'); ?>
 
-			<a class="cta" href="<?php $this->options->feedUrl(); ?>">订阅</a>
+	<!--		<a class="cta" href="<?php $this->options->feedUrl(); ?>">订阅</a> -->
 		</nav>
 		<section id="wrapper">
